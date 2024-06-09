@@ -402,6 +402,17 @@
                     </div>
 
                     <div class="mb-3">
+                        <label class="form-label">Form Of Appointment:</label>
+
+                        <label class="form-label space-out-options" for="in-office">In-Person</label>
+                        <input type="radio" id="in-person" name="form-of-appointment" required>
+
+                        <label class="form-label space-out-options" for="in-virtual-consultation">Virtual</label>
+                        <input type="radio" id="in-virtual-consultation" name="form-of-appointment" required>
+                        <div class="form-text">Appointments on Saturday and Sunday are virtual by default. However, for Monday-Friday you can choose between in-person appointments or virtual consultations.</div>
+                    </div>
+
+                    <div class="mb-3">
                         <label for="extra-comments" class="form-label">Add Any Extra Comments:</label>
                         <textarea class="form-control" id="extra-comments" placeholder="Type message here..." rows="3"></textarea>
                         <div class="form-text">Please enter details of all family members (if it is a family appointment) above.</div>
