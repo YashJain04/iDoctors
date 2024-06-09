@@ -1,0 +1,461 @@
+/* import special fonts */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+/* global styles */
+body {
+    font-family: 'Titillium Web';
+}
+
+/* header customization */
+.nav {
+    font-size: 25px;
+    background-color: #fdf0d5;
+    padding: 35px;
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.eye-icon {
+    width: 70px;
+    height: 70px;
+    mix-blend-mode: multiply;
+    margin-top: -60px;
+    margin-left: 1575px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    mix-blend-mode: multiply;
+    position: fixed;
+    z-index: 5;
+    margin-top: -120px;
+    margin-left: 35px;
+    border-radius: 65%;
+}
+
+header a {
+    color: #0047AB;
+    display: flex;
+}
+
+.underline-hover-red:hover {
+    text-decoration: underline;
+    text-decoration-color: #ce3171;
+    text-decoration-thickness: 3px;
+    transition: text-decoration 700ms ease-in-out;
+}
+
+.business-name {
+    padding-left: 40px;
+    font-size: 120px;
+    margin-top: 150px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 4px;
+    font-family: 'Tangerine';
+    position: static;
+}
+
+.landing-page {
+    display: flex;
+}
+
+.company-image {
+    align-self: flex-start;
+    width: 50%;
+}
+
+.optometrist-homepage-image {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 5%;
+}
+
+.company-description {
+    width: 50%;
+}
+
+.slogan {
+    margin-top: 25%;
+    padding: 15px;
+    text-align: center;
+}
+
+.organize-hours-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+.space-button-below {
+    margin-bottom: 35px;
+}
+
+.book-now {
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.book-now:hover {
+    border: 2px solid orange;
+}
+/* main customization */
+.our-services {
+    padding-left: 40px;
+    font-size: 120px;
+    margin-top: 70px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 4px;
+    font-family: 'Tangerine';
+    position: static;
+    scroll-margin-top: 120px;
+}
+
+.our-services-statement {
+    margin-top: -25px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Tangerine';
+    position: static;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.col-one-custom {
+    width: 40%;
+}
+
+.service-image-one {
+    margin-left: -45%;
+    width: 900px;
+    height: 600px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.col-two-custom {
+    width: 50%;
+    margin-left: 800px;
+    margin-top: -570px;
+    text-align: justify;
+    font-size: larger;
+}
+
+.service-font {
+    font-family: 'Cinzel';
+    text-align: center;
+    font-size: 25px;
+}
+
+.gradient-underline {
+    background-image: linear-gradient(90deg, #FC466B, #3F5EFB);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.special-customization {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.col-one-custom-special {
+    text-align: justify;
+    font-size: larger;
+    margin-left: -200px;
+    width: 50%;
+}
+
+.col-two-custom-special {
+    width: 5%;
+    margin-left: 550px;
+    margin-top: -550px;
+}
+
+.service-image-two {
+    margin-left: -45%;
+    width: 900px;
+    height: 600px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.third-container {
+    margin-top: -5px;
+}
+
+.service-image-three {
+    margin-left: -45%;
+    width: 900px;
+    height: 600px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.service-image-four {
+    margin-left: -45%;
+    margin-top: 60%;
+    width: 900px;
+    height: 600px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.four-container {
+    margin-top: -5px;
+}
+
+.service-image-five {
+    margin-left: -45%;
+    width: 900px;
+    height: 600px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.our-experts {
+    padding-left: 40px;
+    font-size: 120px;
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 4px;
+    font-family: 'Tangerine';
+    position: static;
+    scroll-margin-top: 120px;
+}
+
+.our-experts-statement {
+    margin-top: -25px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Tangerine';
+    position: static;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    border: 2px solid orange;
+}
+
+.card-info-header {
+    text-align: center;
+}
+
+.gradient-underline-two {
+    background-image: linear-gradient(90deg, #2C3E50, #FD746C);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.card-info-text {
+    text-align: justify;
+}
+
+.contact-title {
+    padding-left: 40px;
+    font-size: 120px;
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 4px;
+    font-family: 'Tangerine';
+    position: static;
+    scroll-margin-top: 120px;
+}
+
+.contact-statement {
+    margin-top: -25px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Tangerine';
+    position: static;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-side-one, .contact-side-two {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.contact-side-three {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.contact-side-one {
+    padding: 2px;
+    font-size: 15px;
+    padding-left: 35px;
+}
+
+.gradient-underline-three {
+    background-image: linear-gradient(90deg, #e96443, #904e95);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.contact-information {
+    text-align: center;
+}
+
+.contact-side-two {
+    padding: 1px;
+    font-size: larger;
+    padding-right: 55px;
+}
+
+.contact-side-three {
+    padding: 5px;
+    padding-right: 55px;
+}
+
+iframe {
+    border: 2px solid black;
+}
+
+.book-now-title {
+    padding-left: 40px;
+    font-size: 120px;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 4px;
+    font-family: 'Tangerine';
+    position: static;
+    scroll-margin-top: 120px;
+}
+
+.book-now-title-statement {
+    margin-top: -25px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Tangerine';
+    position: static;
+}
+
+.form-custom-container-holder {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-custom-container-one, .form-custom-container-two {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.form-custom-container-one {
+    padding: 20px; /* Optional padding for spacing */
+}
+
+.special-dropdown {
+    margin-top: -55px;
+    margin-left: 120px;
+}
+
+.form-custom-container-two {
+    padding: 10px; /* Optional padding for spacing */
+}
+
+.special-time {
+    padding-right: 80px;
+}
+
+#time-enter:invalid + .valid-time-check-x::after {
+    position: absolute;
+    content: "✖";
+    padding-left: 5px;
+}
+  
+#time-enter:valid + .valid-time-check-x::after {
+    position: absolute;
+    content: "✓";
+    padding-left: 5px;
+}
+
+.space-out-options {
+    margin-left: 7.5px;
+}
+
+.booking-confirmation-title {
+    padding-left: 40px;
+    font-size: 120px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Tangerine';
+    position: static;
+}
+
+.booking-confirmation-statement {
+    margin-top: -25px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Tangerine';
+    position: static;
+}
+
+/* footer customization */
+footer {
+    text-align: center;
+    font-size: 30px;
+    background-color: #fdf0d5;
+    padding: 20px;
+    color: #2C3E50;
+    font-family: cursive;
+}
+
+/* confirmation page styles */
+.landing-page-box {
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 2px solid;
+    border-image: white;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.confirmation-background img {
+    width: calc(100vw + 10px); /* Adjust the value according to your preference */
+    margin-top: -10px; /* needed if blur is not used */
+    margin-left: -10px; /* Half of the extra width added */
+    margin-right: -10px; /* Half of the extra width added */
+    display: block;
+    /* filter: blur(8px); */
+}
+
+#align-logo {
+    margin-left: -95px;
+    margin-top: 50px;
+    width: 150px;
+    height: auto;
+    z-index: 500;
+}
